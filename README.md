@@ -19,3 +19,12 @@ Options:
 l - long listing format
 a - show all files (including hidden files)
 
+
+### ii. `cd`
+
+Change current directory (move to another directory)
+
+```
+cd directory-path
+```
+
