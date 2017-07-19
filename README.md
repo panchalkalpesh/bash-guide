@@ -28,3 +28,10 @@ Change current directory (move to another directory)
 cd directory-path
 ```
 
+### iii. `cp`
+
+Copies a directory or file to destination
+
+```
+cp source destination
+```
