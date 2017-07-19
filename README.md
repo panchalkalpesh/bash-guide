@@ -35,3 +35,12 @@ Copies a directory or file to destination
 ```
 cp source destination
 ```
+
+### iv. `mv`
+
+Moves a source from one path to another. This command is also used to rename directories and files.
+
+```
+mv path1 path2
+mv filename1 filename2
+```
