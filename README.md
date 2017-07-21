@@ -44,3 +44,15 @@ Moves a source from one path to another. This command is also used to rename dir
 mv path1 path2
 mv filename1 filename2
 ```
+
+### v. `rm`
+
+Removes a file(s) or directory(s). 
+
+```
+rm file1 file2
+rm -r directory1
+```
+
+Options:
+f - force deletion without any prompt
