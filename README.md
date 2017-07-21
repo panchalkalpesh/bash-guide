@@ -56,3 +56,12 @@ rm -r directory1
 
 Options:
 f - force deletion without any prompt
+
+
+### vi. `touch`
+
+Create a file. If file already exist, update dates accessed and modified
+
+```
+touch filename
+```
