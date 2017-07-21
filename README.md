@@ -65,3 +65,15 @@ Create a file. If file already exist, update dates accessed and modified
 ```
 touch filename
 ```
+
+
+### vii. `file`
+
+Determine filetype of file(s).
+
+```
+file filename
+```
+
+Options:
+i - output MIME type strings
