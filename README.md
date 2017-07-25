@@ -16,8 +16,8 @@ ls [options]
 ```
 
 Options: 
-l - long listing format
-a - show all files (including hidden files)
+- l - long listing format
+- a - show all files (including hidden files)
 
 
 ### ii. `cd`
@@ -55,7 +55,7 @@ rm -r directory1
 ```
 
 Options:
-f - force deletion without any prompt
+- f - force deletion without any prompt
 
 
 ### vi. `touch`
@@ -76,7 +76,7 @@ file filename
 ```
 
 Options:
-i - output MIME type strings
+- i - output MIME type strings
 
 
 ### viii. `diff`
