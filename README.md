@@ -77,3 +77,13 @@ file filename
 
 Options:
 i - output MIME type strings
+
+
+### viii. `diff`
+
+Compares files line by line and displays the difference.
+
+```
+diff file1 file2
+```
+
