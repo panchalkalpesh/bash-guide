@@ -87,3 +87,14 @@ Compares files line by line and displays the difference.
 diff file1 file2
 ```
 
+### ix. `cat`
+
+Concatenate FILE(s) to standard output. It can be used to display text files on screen, create, copy, merge files.
+
+```
+cat [option] file
+cat file1 file2 
+cat file1 file2 > newmergedfile
+cat < file1 > file2 #copy file1 to file2
+```
+
