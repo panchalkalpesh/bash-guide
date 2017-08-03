@@ -98,3 +98,11 @@ cat file1 file2 > newmergedfile
 cat < file1 > file2 #copy file1 to file2
 ```
 
+
+### x. `more`
+
+Displays output one screen at a time. Move to next page by pressing `space` or press `q` to quit.
+
+```
+more filename
+```
