@@ -106,3 +106,13 @@ Displays output one screen at a time. Move to next page by pressing `space` or p
 ```
 more filename
 ```
+
+
+### xi. `less`
+
+Similar to `more` but allows both forward and backward movements. You can also use arrow keys to move one line at a time.
+
+```
+less filename
+```
+
