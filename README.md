@@ -3,7 +3,8 @@
 
 ## Table of Contents
 
-1. Basic Commands
+1. [Basic Commands](#1-basic-commands)
+2. [System Information](#2-system-information)
 
 
 
@@ -116,3 +117,15 @@ Similar to `more` but allows both forward and backward movements. You can also u
 less filename
 ```
 
+
+
+## 2. System Information
+
+### i. uname
+
+Prints kernel information on the screen.
+
+```
+uname [option]
+uname -a
+```
