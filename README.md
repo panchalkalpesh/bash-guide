@@ -129,3 +129,15 @@ Prints kernel information on the screen.
 uname [option]
 uname -a
 ```
+
+
+### ii. ps
+
+Lists your running processes & their status.
+
+```
+ps [option]
+ps -a
+ps -u user
+```
+
