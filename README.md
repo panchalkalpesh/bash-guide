@@ -141,3 +141,10 @@ ps -a
 ps -u user
 ```
 
+### iii. jobs
+
+Lists the jobs running in the background along with the job number.
+
+```
+jobs
+```
