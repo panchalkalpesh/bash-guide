@@ -148,3 +148,11 @@ Lists the jobs running in the background along with the job number.
 ```
 jobs
 ```
+
+### iv. df
+
+Displays file system disk space usage.
+
+```
+df
+```
