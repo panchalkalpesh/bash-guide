@@ -156,3 +156,17 @@ Displays file system disk space usage.
 ```
 df
 ```
+
+### v. du
+
+Displays the disk usage of files and/or directories.
+
+```
+du [options] filename|dirname
+du -sh /sbin/file1
+```
+
+Options: 
+- h - Human readable format (size is displayed in KB, MB, GB)
+- a - display all (shows disk space for directories at every level and also individual files)
+- s - Suppress or Summarize (only shows total disk space occupied)
