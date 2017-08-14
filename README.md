@@ -170,3 +170,13 @@ Options:
 - h - Human readable format (size is displayed in KB, MB, GB)
 - a - display all (shows disk space for directories at every level and also individual files)
 - s - Suppress or Summarize (only shows total disk space occupied)
+
+
+### v. top
+
+Displays a dynamic real-time view of a running system with the list of active processes.
+
+```
+top
+```
+
