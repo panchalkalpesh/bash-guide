@@ -180,3 +180,11 @@ Displays a dynamic real-time view of a running system with the list of active pr
 top
 ```
 
+### vi. last
+
+Shows listing of last logged in user(s).
+
+```
+last
+last username
+```
