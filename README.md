@@ -188,3 +188,11 @@ Shows listing of last logged in user(s).
 last
 last username
 ```
+
+### vii. quota
+
+Displays the disk quota (limits) and usage.
+
+```
+quota
+```
