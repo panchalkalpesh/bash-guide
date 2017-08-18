@@ -5,7 +5,7 @@
 
 1. [Basic Commands](#1-basic-commands)
 2. [System Information](#2-system-information)
-
+3. [Process Management](#3-process-management)
 
 
 ## 1. Basic Commands
@@ -195,4 +195,15 @@ Displays the disk quota (limits) and usage.
 
 ```
 quota
+```
+
+
+## 3. Process Management
+
+### i. kill
+
+Sends a signal to a process. Commonly used to terminate a process. 
+
+```
+kill [signal] PID
 ```
