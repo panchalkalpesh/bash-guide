@@ -207,3 +207,16 @@ Sends a signal to a process. Commonly used to terminate a process.
 ```
 kill [signal] PID
 ```
+
+### ii. killall
+
+Kill all processes by name.
+
+````
+killall processname
+```
+
+Options: 
+- e - Require an exact match for long names
+- i - Interactively ask for confirmation before killing
+- q - Quiet mode
