@@ -220,3 +220,11 @@ Options:
 - e - Require an exact match for long names
 - i - Interactively ask for confirmation before killing
 - q - Quiet mode
+
+### iii. fg
+
+Moves a background job to foreground
+
+```
+fg [job-id]
+```
