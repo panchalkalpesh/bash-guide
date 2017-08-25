@@ -230,3 +230,13 @@ Moves a background job to foreground
 ```
 fg [job-id]
 ```
+
+
+### iv. bg
+
+Runs a job in the background.
+
+```
+bg [job-id]
+```
+
