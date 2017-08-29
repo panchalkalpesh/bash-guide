@@ -262,3 +262,11 @@ Domain information groper, DNS lookup utility.
 ```
 dig domain [options] [query]
 ```
+
+### iii. w
+
+Shows who is logged on and what they are doing.
+
+```
+w [option] [user]
+```
