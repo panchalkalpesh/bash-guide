@@ -245,7 +245,17 @@ bg [job-id]
 
 ## 4. Network Operations
 
-### i. dig
+### i. ping
+
+Used to test if a host is reachable. Sends ICMP ECHO_REQUEST to network host(s). 
+
+``` 
+ping [option] host
+ping host
+ping -t host
+```
+
+### ii. dig
 
 Domain information groper, DNS lookup utility.
 
