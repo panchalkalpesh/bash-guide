@@ -6,6 +6,7 @@
 1. [Basic Commands](#1-basic-commands)
 2. [System Information](#2-system-information)
 3. [Process Management](#3-process-management)
+4. [Network Operations](#4-network-operations)
 
 
 ## 1. Basic Commands
@@ -240,3 +241,14 @@ Runs a job in the background.
 bg [job-id]
 ```
 
+
+
+## 4. Network Operations
+
+### i. dig
+
+Domain information groper, DNS lookup utility.
+
+```
+dig domain [options] [query]
+```
