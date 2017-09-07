@@ -242,6 +242,14 @@ bg [job-id]
 ```
 
 
+### v. nohup
+
+nohup i.e. No Hangup, runs the given command with hangup signals ignored, so that the command can continue running in the background after you log out.
+
+```
+nohup command [arg...]
+```
+
 
 ## 4. Network Operations
 
