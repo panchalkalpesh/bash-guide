@@ -7,6 +7,7 @@
 2. [System Information](#2-system-information)
 3. [Process Management](#3-process-management)
 4. [Network Operations](#4-network-operations)
+5. [Shell Programming](#5-shell-programming)
 
 
 ## 1. Basic Commands
@@ -278,3 +279,18 @@ Shows who is logged on and what they are doing.
 ```
 w [option] [user]
 ```
+
+
+## 5. Shell Programming
+
+Shell is a user program or an environment provided for user interaction. Shell is a command language interpreter that executes commands read from the standard input device (keyboard) or from a file.
+
+Shell is not part of system kernel but uses the system kernel to execute programs, create files etc.
+
+Several shells available with Linux including:
+
+- SH (POSIX shell or Bourne shell)
+- BASH ( **B**ourne-**A**gain **SH**ell )
+- CSH (C SHell)	
+- KSH (Korn SHell)	
+- TCSH	(TENEX/TOPS C shell)
