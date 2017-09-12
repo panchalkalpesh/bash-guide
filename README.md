@@ -294,3 +294,5 @@ Several shells available with Linux including:
 - CSH (C SHell)	
 - KSH (Korn SHell)	
 - TCSH	(TENEX/TOPS C shell)
+
+A shell script begins with a `#!` commonly referred to as shebang, also known as sha-bang, hashbang, pound-bang or hash-pling. 
