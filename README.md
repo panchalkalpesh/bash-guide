@@ -305,3 +305,18 @@ It's syntax follows:
 #!/bin/bash
 #!/bin/csh -f
 ```
+
+### Executing a shell script
+
+Syntax:
+```
+[interpreter] script-name
+./script-name
+```
+
+On your terminal type:
+```
+bash scriptA
+sh scriptA
+./scriptA
+```
