@@ -326,3 +326,9 @@ sh scriptA
 
 Variables in shell programming are typeless (no data types). A valid variable name can consist of characters, numbers, hyphens and underscores. There can be no spaces around the "=" assignment sign: that is `VAR=value` is valid; `VAR = value` is not.
 
+Variables can be accessed by prepending `$` before the `VARIABLE_NAME`.
+
+```
+MY_MESSAGE="HELLO!"
+echo $MY_MESSAGE
+```
