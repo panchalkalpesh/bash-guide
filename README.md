@@ -338,8 +338,8 @@ echo $MY_MESSAGE
 There are 4 types of quotes with Shell programming:
 
 | Quote | Name | Description   |
-| :-- | ----: | :---: |
-| " | Double Quote |  Weak type of quoting, expands variables and command substitutions but not meta-characters  |
+| :-- | :-- | :-- |
+| " | Double Quote | Evaluates some special charactes (``$,`,\$,\',\" and \\``) & does command substitutions but not meta-characters  |
 | ' | Single Quote | No special characters are expanded |
 | ` | Back Quote | Execute everything in between back quotes |
 | \ | Backslash | Everything immediately following a backslash will not be executed |
