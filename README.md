@@ -355,3 +355,14 @@ ARRAY_NAME[Index]=Value
 ARRAY_NAME=([INDEX1]=VALUE1 [INDEX2]=VALUE2)
 ARRAY_NAME=(VALUE1 VALUE2)
 ```
+
+To get a specific value from the ARRAY: 
+```
+${ARRAY_NAME[Index]}
+```
+
+To get all the values from the ARRAY:
+```
+${ARRAY_NAME[*]}
+${ARRAY_NAME[@]}
+```
