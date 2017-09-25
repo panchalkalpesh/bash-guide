@@ -341,5 +341,17 @@ There are 4 types of quotes with Shell programming:
 | :-- | :-- | :-- |
 | " | Double Quote | Evaluates some special charactes (``$,`,\$,\',\" and \\``) & does command substitutions but not meta-characters  |
 | ' | Single Quote | No special characters are expanded |
-| ` | Back Quote | Execute everything in between back quotes |
+| \` | Back Quote | Execute everything in between back quotes |
 | \ | Backslash | Everything immediately following a backslash will not be executed |
+
+
+### iii. Arrays
+
+Shell supports Array variable. They hold multiple values just like most programming languages. 
+Following are the ways to set values to ARRAY variable: 
+
+```
+ARRAY_NAME[Index]=Value
+ARRAY_NAME=([INDEX1]=VALUE1 [INDEX2]=VALUE2)
+ARRAY_NAME=(VALUE1 VALUE2)
+```
