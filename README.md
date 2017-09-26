@@ -366,3 +366,15 @@ To get all the values from the ARRAY:
 ${ARRAY_NAME[*]}
 ${ARRAY_NAME[@]}
 ```
+
+
+### iv. Functions
+
+Functions are sequence of code that are grouped together to execute some shell commands in order to return/output some values. Functions may change the state of variable(s) and even exit the shell script execution too. They are defined as: 
+
+```
+function myFunction {
+# Perform some operations
+# echo/return/exit
+}
+```
