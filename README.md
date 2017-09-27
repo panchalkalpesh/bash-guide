@@ -378,3 +378,30 @@ function myFunction {
 # echo/return/exit
 }
 ```
+
+### v. Loops
+
+Bash provides 3 types of loops: `for`, `while` and `until`.
+
+#### `for` Syntax:
+
+```
+for VARIABLE in 1 2 3 4 5 .. N
+do
+  statement
+done
+
+# OR
+
+for VARIABLE in file1 file2 file3
+do
+	statement
+done
+
+# OR
+
+for OUTPUT in $(command)
+do
+	command on $OUTPUT
+done
+```
