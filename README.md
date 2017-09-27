@@ -391,17 +391,31 @@ do
   statement
 done
 
-# OR
-
 for VARIABLE in file1 file2 file3
 do
 	statement
 done
 
-# OR
-
 for OUTPUT in $(command)
 do
 	command on $OUTPUT
 done
+```
+
+**OR**
+
+```
+for (( EXPRESSION_1; EXPRESSION_2; EXPRESSION_3 ))
+  do
+    statement
+  done
+```
+
+**OR with Bash v4.0+**
+
+```
+for i in {START..END..INCREMENT}
+  do 
+    statement
+  done
 ```
