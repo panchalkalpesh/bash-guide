@@ -393,12 +393,12 @@ done
 
 for VARIABLE in file1 file2 file3
 do
-	statement
+  statement
 done
 
 for OUTPUT in $(command)
 do
-	command on $OUTPUT
+  command on $OUTPUT
 done
 ```
 
@@ -412,10 +412,24 @@ for (( EXPRESSION_1; EXPRESSION_2; EXPRESSION_3 ))
 ```
 
 **OR with Bash v4.0+**
-
 ```
 for i in {START..END..INCREMENT}
   do 
     statement
   done
+```
+
+#### `while` Syntax:
+
+```
+while condition; do
+  statement
+done
+```
+
+#### `until` Syntax:
+```
+until condition; do
+  statement
+done
 ```
