@@ -433,3 +433,21 @@ until condition; do
   statement
 done
 ```
+
+
+
+### vi. Conditions
+
+Like other programming languages, bash also supports conditional statements. A sequence of statements can execute if a condition is true. 
+
+Syntax:
+
+```
+if [expression]; then
+  # executed if true
+  statement
+else
+  # executed if false
+  statement
+fi
+```
