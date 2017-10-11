@@ -443,11 +443,14 @@ Like other programming languages, bash also supports conditional statements. A s
 Syntax:
 
 ```
-if [expression]; then
-  # executed if true
+if [expression1]; then
+  # executed if expression1 is true
+  statement
+elif [expression2]; then
+  # executed if expression1 is false but expression2 is true
   statement
 else
-  # executed if false
+  # executed if all the above expressions are false
   statement
 fi
 ```
